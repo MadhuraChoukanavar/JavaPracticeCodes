@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class AllPal {
 	public static void main(String[] args) {
 		Scanner scn = new Scanner(System.in);
-		System.out.println("Enter  a String");
+		System.out.println("Enter a String");
 		String s = scn.next().toLowerCase();
 		for (int i = 0; i < s.length() - 1; i++) {
 			for (int j = i + 1; j < s.length(); j++) {
