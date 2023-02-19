@@ -2,7 +2,7 @@
  * 
  */
 /**
- * @author HP
+ * @author HP  
  *
  */
 module Strings {
