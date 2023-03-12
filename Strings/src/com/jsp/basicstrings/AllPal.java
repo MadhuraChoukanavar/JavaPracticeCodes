@@ -11,6 +11,7 @@ public class AllPal {
 			for (int j = i + 1; j < s.length(); j++) {
 				if (ispallindrome(s, i, j))
 					System.out.println(s.substring(i, j + 1));
+
 			}
 		}
 
@@ -27,3 +28,7 @@ public class AllPal {
 	}
 
 }
+//converting string to integer
+
+//String a = "1234";
+//Integer a1=Integer.parseInt(a);

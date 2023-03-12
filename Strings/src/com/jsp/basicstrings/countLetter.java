@@ -1,4 +1,4 @@
-package com.jsp.basicstrings;
+  package com.jsp.basicstrings;
 
 import java.util.Scanner;
 
@@ -14,11 +14,11 @@ public class countLetter {
 			String s2=s.replace(c+"","");
 			int count =s.length()-s2.length();
 			System.out.println(c+"="+count);
-//			System.out.println(s);
-//			System.out.println(s2);
+			System.out.println(s);
+			System.out.println(s2);
 			s=s2 ;
-//			System.out.println(s);
-//			System.out.println(s2);
+			System.out.println(s);
+			System.out.println(s2);
 			}
 		}
 

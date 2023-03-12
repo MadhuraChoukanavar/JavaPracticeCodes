@@ -2,18 +2,18 @@ package com.jsp.basicstrings;
 
 public class timeOfExecutin {
 	public static void main(String[] args) {
-//		String s1="String is";
-//		String s2="immutable";
-//		long  startTime=System.currentTimeMillis();
-//		
-//	for(int i=0;i<50000;i++)
-//	{
-//		s1=s1+s2;
-//		System.out.println(s1.hashCode());
-//	}
-//	long endTime= System.currentTimeMillis();
-//	System.out.println("Time taken byString "+(endTime-startTime));
-//	}
+		String s1="String is";
+		String s2="immutable";
+		long  startTime=System.currentTimeMillis();
+		
+	for(int i=0;i<50000;i++)
+	{
+		s1=s1+s2;
+		System.out.println(s1.hashCode());
+	}
+	long endTime= System.currentTimeMillis();
+	System.out.println("Time taken byString "+(endTime-startTime));
+	}
 	
 	long  startTime1=System.currentTimeMillis();
 	

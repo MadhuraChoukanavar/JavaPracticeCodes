@@ -8,14 +8,16 @@ public class printNumInString {
 		Scanner scn=new Scanner(System.in);
 		System.out.println("enter the string");
 		String s=scn.next();
-		for(int i=0;i<s.length();i++)
+		String s1="";
+		for(int i=s.length()-1;i>0;i--)
 		{
 			char c=s.charAt(i);
 			if(c>='0'&&c<='9')
 			{
-				System.out.print(c);
+				s1=c+ ""+s1;
 			}
 		}
+		System.out.println(s1);
 	}
 
 }

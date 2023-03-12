@@ -1,4 +1,4 @@
-package com.jsp.basicstrings;
+ package com.jsp.basicstrings;
 
 import java.util.Scanner;
 
